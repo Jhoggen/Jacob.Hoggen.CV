@@ -1,0 +1,42 @@
+.aboutme{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    display: inline;
+    margin-left: 23.5%;
+    margin-top: 5%;
+    margin-bottom: 30%;
+    font-family: "Poppins", sans-serif;
+}
+
+.selfie{
+    display: flex;
+    height: 250px;
+    width: 200px;
+    background-image: url(../images/selfie1.jpg);
+    background-size: cover;
+    border-radius: 60px;
+}
+
+#h3style{
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 590px) {
+    .selfie{
+        height: 200px;
+        width: 150px;
+        margin-left: 19%;
+    }
+    aside{
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
